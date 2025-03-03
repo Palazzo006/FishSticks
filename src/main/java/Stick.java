@@ -9,7 +9,7 @@ public class Stick extends GameObject {
         super(x, y, width, height);
         this.color = COLORS[new Random().nextInt(COLORS.length)];
     }
-
+    // This is my overridden method
     @Override
     public void draw(Graphics g) {
         g.setColor(color);

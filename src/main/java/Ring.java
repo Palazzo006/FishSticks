@@ -2,6 +2,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.util.Random;
 
+// This is my interface implementation
 public class Ring extends GameObject implements Movable {
     private boolean wrapped;
     private final Color color;

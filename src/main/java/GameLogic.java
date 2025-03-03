@@ -22,6 +22,7 @@ public class GameLogic extends JPanel implements KeyListener {
     @SuppressWarnings("unused")
     private final GameWindow gameWindow;
     private final String playerName;
+    // This is my array of subclass objects
     private final ArrayList<Ring> rings;
     private final ArrayList<Stick> sticks;
     private int score;
