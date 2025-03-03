@@ -16,10 +16,17 @@ public class Ring extends GameObject implements Movable {
         return width;
     }
 
+    //overloaded constructor
     public Ring(int x, int y) {
         super(x, y, 30, 30);
         this.wrapped = false;
         this.color = COLORS[new Random().nextInt(COLORS.length)];
+    }
+    
+    public Ring(int x, int y, Color color) {
+        super(x, y, 30, 30);
+        this.wrapped = false;
+        this.color = color; // Allow custom colors
     }
 
     @Override
